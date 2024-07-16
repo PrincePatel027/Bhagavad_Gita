@@ -1,16 +1,84 @@
-# bhagavat_gita_departure
+# Bhagavad Gita App
 
-A new Flutter project.
+This is a Bhagavad Gita application built using Flutter. It provides a serene and insightful user experience to explore the teachings of the Bhagavad Gita. The app features a splash screen, home page, detail page, and supports themes, likes, and multiple languages.
+
+## Project Structure
+
+```
+lib/
+├── provider/
+│ ├── language_provider.dart
+│ ├── like_provider.dart
+│ └── theme_provider.dart
+├── componentes/
+│ └── custom_list_tile.dart
+├── pages/
+│ ├── detail_page.dart
+│ ├── home_page.dart
+│ └── splash.dart
+├── main.dart
+```
+
+## Images & Videos
+
+///
+
+
+## Dependencies
+
+The app uses the following dependencies:
+
+- `carousel_slider: ^4.2.1`
+- `provider: ^6.1.2`
+- `shared_preferences: ^2.2.3`
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with this project, follow the steps below:
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+git clone https://github.com/PrincePatel027/Bhagavad_Gita
+```
+
+2. Navigate to the project directory:
+
+```
+cd bhagavad_gita_app
+```
+
+3. Install the dependencies:
+
+```
+flutter pub get
+```
+
+### Running the App
+Run the app on an emulator or connected device:
+
+```
+flutter run
+```
+
+### Code Overview
+
+**~main.dart**
+
+The main entry point of the application. It sets up the providers and defines the routes for the app.
+
+**~Providers**
+
+*LanguageProvider:* Manages the language settings of the app.
+
+*LikeProvider:* Manages the like functionality.
+
+*ThemeProvider:* Manages the theme (Light, Dark, System).
+
+*Pages*
+
+- HomePage: The main page of the app where users can explore the content.
+- DetailPage: Provides detailed information on selected content.
+- Splash: The splash screen shown when the app is launched.
