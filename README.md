@@ -21,8 +21,9 @@ lib/
 
 ## Images & Videos
 
-///
+![bhagavad gita](https://github.com/user-attachments/assets/0bbc3952-c629-4309-8853-8f9ecba81b2f)
 
+https://github.com/user-attachments/assets/f24e4819-61b2-4c3a-8ea7-02be23405c68
 
 ## Dependencies
 
